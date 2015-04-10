@@ -23,7 +23,7 @@ img {
 	width: 100%;
 position: relative;
 display: inline-block;
-	padding: 32px 2em 32px 2em;
+	padding: 33px 2em 21px 2em;
 
 }
 
@@ -177,6 +177,7 @@ padding: 1em;
 font-size: 16px;
 font-family: 'Oswald', sans-serif;
 font-weight: 300;
+color: #2a2718;
 }
 
 .footertext {
