@@ -117,6 +117,21 @@ margin: 32px 21px 32px 23px;
 
 }
 
+.voted {
+	position: absolute;
+	width: calc(100% - 2em);
+	display: inline-block;
+	overflow: hidden;
+	color: #2a2718;
+
+
+}
+
+.votedphoto {
+	display: block;
+
+}
+
 .d-2 {
 
 /*height: 100%;*/
@@ -207,4 +222,13 @@ left: 34%;
 top: 2%;
 color: white ;
 
+}
+
+.emphasis {
+	font-weight: 400;
+	text-decoration: none;
+	padding: 0;
+list-style-type: none;
+float: center;
+margin-top: 0;
 }
