@@ -1,6 +1,6 @@
 html {
 box-sizing: border-box;
-background-image: url(../images/wood.jpg);
+background-image: url(../images/woodback.jpg);
 background-size: 340px;
 background-repeat: repeat;
 background-position: center;
@@ -123,13 +123,19 @@ margin: 32px 21px 32px 23px;
 	display: inline-block;
 	overflow: hidden;
 	color: #2a2718;
+	z-index: 1000;
 
 
 }
 
 .votedphoto {
 	display: block;
+	opacity: 1;
+}
 
+.blur {
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
 }
 
 .d-2 {
@@ -159,6 +165,7 @@ height: 100%;*/
 background-color: gray;
 padding: 0;
 margin: 32px 21px 32px 23px;
+overflow: hidden;
 }
 
 .club {
@@ -194,7 +201,7 @@ position: relative;
 }
 
 footer {
-background-color: gray;
+background-color: #663300;
 height: 50px;
 width: 100%;
 padding: 13px 5px 13px 5px;}
