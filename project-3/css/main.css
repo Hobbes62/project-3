@@ -98,6 +98,7 @@ h2 {
 		font-family: 'Oswald', sans-serif;
 		font-weight: 400;
 		color: white;
+		margin: 0em;
 
 }
 
@@ -157,10 +158,13 @@ margin: 32px 21px 32px 23px;
 .text {
 	width: 100%;
 list-style-type: none;
-float: left;
+float: right;
 display: inline block;
 margin-top: 0;
-background-color: #cc9966;}
+margin-bottom: 0;
+background-color: #cc9966;
+padding: 0em 1em 1em 0em;
+text-align: left;}
 
 .d-3{
 /*
@@ -172,15 +176,24 @@ overflow: hidden;
 }
 
 .club {
-width: 30%;
+width: 40%;
+float: left;
+margin-left: .54em;
+margin-right: .5em;
 }
 
 .breakbagel {
-width: 30%;
+width: 40%;
+float: left;
+margin-left: .54em;
+margin-right: .5em;
 }
 
 .blt {
-width: 30%;
+width: 40%;
+float: left;
+margin-left: .54em;
+margin-right: .5em;
 }
 
 
@@ -188,7 +201,7 @@ width: 30%;
 /*height: 100%;*/
 
 background-color: #cc9966;
-padding: 0;
+padding: 0 0 20px 0;
 margin: 32px 21px 32px 23px;
 }
 
@@ -257,10 +270,20 @@ margin: 32px 21px 32px 23px;
 
 .logo {
 	position: absolute;
-	bottom: -34%;
-right: 20%;
+	bottom: 4px;
+right: 40%;
 	width: 20%;
-	z-index: 2000;
 	padding: 0em;
-	margin: 0em;
+	margin-left: 45%;
+}
+
+.map {
+	padding: 0;
+	margin: 0;
+}
+
+.info {
+	padding: 0em 0em 0em 0em;
+	margin: 0em 1em ;
+text-align: left;
 }
