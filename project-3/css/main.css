@@ -56,12 +56,12 @@ nav li {
 	width: 33.33%;
 	float: left;
 	padding: 13px 5px 13px 5px;
-		background-color: gray;
+		background-color: #503300;
 		font-size: 16px;
 }
 
 li:hover {
-	background-color: black;
+	background-color: #DF0900;
 	display: block;
 	text-align: center;
 
@@ -122,8 +122,11 @@ margin: 32px 21px 32px 23px;
 	width: calc(100% - 2em);
 	display: inline-block;
 	overflow: hidden;
-	color: #2a2718;
+	color: white;
+	text-shadow: #222222 1px 3px 2px;
 	z-index: 1000;
+	color: white;
+
 
 
 }
@@ -134,14 +137,14 @@ margin: 32px 21px 32px 23px;
 }
 
 .blur {
-	-webkit-filter: blur(2px);
-	filter: blur(2px);
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
 }
 
 .d-2 {
 
 /*height: 100%;*/
-background-color: gray;
+background-color: #cc9966;;
 padding: 0;
 margin: 32px 21px 32px 23px;
 
@@ -157,12 +160,12 @@ list-style-type: none;
 float: left;
 display: inline block;
 margin-top: 0;
-background-color: gray;}
+background-color: #cc9966;}
 
 .d-3{
 /*
 height: 100%;*/
-background-color: gray;
+background-color: #cc9966;
 padding: 0;
 margin: 32px 21px 32px 23px;
 overflow: hidden;
@@ -184,7 +187,7 @@ width: 30%;
 .d-4 {
 /*height: 100%;*/
 
-background-color: gray;
+background-color: #cc9966;
 padding: 0;
 margin: 32px 21px 32px 23px;
 }
@@ -201,7 +204,7 @@ position: relative;
 }
 
 footer {
-background-color: #663300;
+background-color: #503300;
 height: 50px;
 width: 100%;
 padding: 13px 5px 13px 5px;}
@@ -238,4 +241,26 @@ color: white ;
 list-style-type: none;
 float: center;
 margin-top: 0;
+}
+
+.d-s {
+padding: 0;
+margin: 32px 21px 32px 23px;
+}
+
+.social {
+	display: inline-block;
+	width: 32%;
+	overflow: hidden;
+
+}
+
+.logo {
+	position: absolute;
+	bottom: -34%;
+right: 20%;
+	width: 20%;
+	z-index: 2000;
+	padding: 0em;
+	margin: 0em;
 }
