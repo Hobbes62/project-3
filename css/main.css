@@ -101,7 +101,7 @@ h2 {
 .d-1 {
 
 /*height: 100%;*/
-background-color: gray;
+background-color: #996633;
 padding: 0;
 margin: 32px 21px 32px 23px;
 }
@@ -137,7 +137,7 @@ margin: 32px 21px 32px 23px;
 .d-2 {
 
 /*height: 100%;*/
-background-color: #cc9966;;
+background-color: #996633;
 padding: 0 0 20px 0;
 margin: 32px 21px 32px 23px;
 
@@ -160,7 +160,7 @@ text-align: left;}
 .d-3{
 /*
 height: 100%;*/
-background-color: #cc9966;
+background-color: #996633;
 padding: 0;
 margin: 32px 21px 32px 23px;
 overflow: hidden;
@@ -191,7 +191,7 @@ margin-right: .5em;
 .d-4 {
 /*height: 100%;*/
 
-background-color: #cc9966;
+background-color: #996633;
 padding: 0 0 20px 0;
 margin: 32px 21px 32px 23px;
 }
